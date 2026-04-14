@@ -10,7 +10,7 @@ class BuildingCountModel {
 
   factory BuildingCountModel.fromJson(Map<String, dynamic> json) {
     return BuildingCountModel(
-      buildName: json['buildName'] ?? "" as String,
+      buildName: json['buildName'] ?? "",
       count: json['count'] as int,
     );
   }
